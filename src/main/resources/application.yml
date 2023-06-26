@@ -1,6 +1,5 @@
 server:
   port: 8080
-
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/world
@@ -18,3 +17,9 @@ spring:
 logging:
   level:
     sql: debug
+
+
+servers:
+  - url: http://test-server-url.com/api
+    description: Test Server
+
